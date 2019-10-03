@@ -1,0 +1,10 @@
+<html>
+  <title>{{ chapter.title }}</title>
+  <body>
+    {% for part in parts %}
+    <article class="chapter">
+      {{ part.content }}
+    </article>
+    {% endfor %}
+  </body>
+</html>
